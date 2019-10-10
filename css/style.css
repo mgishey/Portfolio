@@ -1,12 +1,12 @@
 body {
-    font-family: Nunito;
+    font-family: Montserrat;
     color: #444;
     
 }
 
 h1, h2, h3, h4 {
     color: #222;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Baloo';
 }
 
 /************************************
@@ -24,8 +24,8 @@ nav {
 }
 
 nav > a.navbar-brand {
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase; 
+    font-family: 'Baloo';
+    /*text-transform: uppercase;*/ 
     font-size: 300%;
     margin: 0 auto;
 }
@@ -40,25 +40,9 @@ ul.navbar-nav a {
 }
 
 ul.navbar-nav li:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s; 
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite; 
+    
 }
     
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
 
 /************************************
             ALL SECTIONS
@@ -81,14 +65,15 @@ ul.navbar-nav li:hover {
             SECTION: Bio
 ************************************/
 #content-container h1 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Baloo';
     text-align: right;
-    color: #00a797;
+    color: #8c1d40;
 }
 
 #content-container img {
+    /*NEED A NEW PICTURE!!!!!!!!!
     width: 250px;
-    height: 230px;
+    /*height: 250px;*/
     margin: 0 0 1em 0;
     border-radius: 50%;
 }
@@ -98,25 +83,27 @@ ul.navbar-nav li:hover {
 }
 
 .list-group-item.active {
-    background-color: #00a797 !important;
-    border-color: #00a797 !important;
+    background-color: #8c1d40 !important;
+    border-color: #8c1d40 !important;
 }
 
 /************************************
             SECTION: Social
 ************************************/
-.social-icon {
-    width: 100px;
-    transition: all 0.5s linear;
+.btn {
+    font-size: 500%;
+    color: black;
 }
 
-.social-icon:hover {
-    transform: rotate(45deg);
+.email-icon {
+    font-size: 100%;
+    color: black;
 }
+
 
 #social-container h2 {
-    font-family: 'Permanent Marker', cursive;
-    color: #00a797;
+    font-family: 'Baloo';
+    color: #8c1d40;
 }
 
 /************************************
@@ -210,12 +197,12 @@ ul.navbar-nav li:hover {
 }
 
 .p1 {
-    background: #FFF url('../assets/community.png')  center no-repeat;
+    background: #FFF url('../assets/blue-crystal.jpg')  center no-repeat;
     background-size: cover;
 }
 
 .p2 {
-    background: #FFF url('../assets/CheffW.png')  center no-repeat;
+    background: #FFF url('../assets/trivia.jpg')  center no-repeat;
     background-size: cover;
 }
 
@@ -245,7 +232,7 @@ ul.navbar-nav li:hover {
 }
 
 .p8 {
-    background: #FFF url('../assets/jean-paul02.png') center no-repeat;
+    background: #FFF url('../assets/myphoto.jpg') center no-repeat;
     background-size: cover;
 }
 /************************************

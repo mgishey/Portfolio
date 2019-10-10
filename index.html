@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Nunito" rel="stylesheet">
-    <!-- Font Awesomee -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Nunito|Baloo|Montserrat" rel="stylesheet">
+    <!-- ion-icons -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     <!-- Own Style -->
     <link rel="stylesheet" href="css/style.css">
     <title>Michael Gishey || Web Developer</title>
@@ -39,13 +40,14 @@
                         <h1 id="about">About</h1>
                         <img src="assets/myphoto.jpg" alt="Michael Gishey">
                         <p>I'm a <strong>Full Stack JavaScript Web Developer</strong> located in Tucson, AZ. I'm a
-                        native of Arizona and graduated from Arizona State University with a degree in Geography.
-                        I went on to work with the U.S. Geological Survey for 21 years as an Information Technology
-                        Specialist with a focus on Geographic Information Systems (GIS). I was also a team member in
-                        the development of the National Geologic Map Database.  I believe the combination of GIS
-                        technology and web development technologies can combine to create very interesting applications.
-                    
-                    </p>
+                            native of Arizona and graduated from Arizona State University with a degree in Geography.
+                            I went on to work with the U.S. Geological Survey for 21 years as an Information Technology
+                            Specialist with a focus on Geographic Information Systems (GIS). I was also a team member in
+                            the development of the National Geologic Map Database. I believe the combination of GIS
+                            technology and web development technologies can combine to create very interesting
+                            applications.
+
+                        </p>
                         <p>Some of the technologies that I enjoy using are:</p>
 
                         <div class="list-group">
@@ -77,13 +79,19 @@
 
             <section id="social" class="col-md-4">
                 <div id="social-container" class="losContainers">
-                    <h2>Connect <br />with Me</h2>
-                    <a href="https://github.com/mgishey" target="_blank"><img class="social-icon"
-                            src="assets/github.png" alt="GitHub Icon"></a>
-                    <a href="https://www.linkedin.com/in/michael-gishey-8bb07b180/" target="_blank"><img class="social-icon"
-                            src="assets/linkedin_icon.png" alt="LinkedIn Icon"></a>
-                    <a href="mailto:mgishey56@gmail.com" target="_blank"><img class="social-icon"
-                            src="assets/email_icon.png" alt="Email Icon"></a>
+                    <h2>Follow Me</h2>
+                    <a class="btn" href="https://github.com/mgishey" target="_blank" alt="GitHub Icon">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a class="btn" href="https://www.linkedin.com/in/michael-gishey-8bb07b180/" target="_blank"
+                        alt="LinkedIn Icon">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <!--<a class="email-icon" href=mailto:mgishey56@gmail.com" target="_blank" alt="Email Icon">
+                        <ion-icon name="ios-mail"></ion-icon>mgishey56@gmail.com</a>-->
+                    <p>Email: mgishey56@gmail.com</p>
+                    <p>Phone: (520) 397-4464</p>
+
                 </div>
             </section> <!-- /social -->
         </div><!-- /row -->
@@ -99,33 +107,33 @@
         <div id="portfolio-container" class="row no-gutters d-flex justify-content-around">
             <div class="portfolio-item p1 col-md-5">
                 <div class="hidden-text">
-                    <h4 class="text-center">COMMUNIty</h4>
+                    <h4 class="text-center">Crystal Collector</h4>
                     <br>
-                    <p>An app built for the <a href="http://www.munimod.com/">MuniMod</a> Civic Hackathon April 2018, it
-                        connects citizens with municipal leaders through a city dashboard that allows the users to
-                        create an account and upvotes / downvotes and comments.</p>
+                    <p>This game is called Crystal Collector where HTML values are dynamically updated using jQuery.
+
+                        The game begins with a randomly generated computer score ranging between 19 and 120. Four crystals are assigned randomly generated values ranging between 1 and 12. These values remain constant for each crystal unitil the game is won or lost. To win the game the player must matchthe score of the computer.
+                    </p>
+                    <br><br>
                     <div class="hidden-links">
-                        <a href="https://github.com/jpdevspace/MuniMod_COMMUNIty" target="_blank">
+                        <a href="https://github.com/mgishey/unit-4-game" target="_blank">
                             <i class="fab fa-github"></i> See code on Github
                         </a>
                         <br>
-                        <a href="https://communi-ty.herokuapp.com" target="_blank">
-                            <i class="fas fa-eye"></i> See it live on Heroku
+                        <a href="https://mgishey.github.io/unit-4-game/" target="_blank">
+                            <i class="fas fa-eye"></i>Play
                         </a>
                     </div>
                 </div>
-                <div class="portfolio-label">Node.js || Express.js || React.js || Redux || MongoDB</div>
+                <div class="portfolio-label">HTML || CSS || Javascript || jQuery</div>
             </div>
 
             <div class="portfolio-item p2 col-md-5">
                 <div class="hidden-text">
-                    <h4 class="text-center">Cheff W</h4>
+                    <h4 class="text-center">NFL Trivia</h4>
                     <br>
-                    <p>A web application that can be controlled with voice commands to get cooking recipes and
-                        instructions. Create a user account to save your favorite recipes in your profile and add
-                        comments. Remember to allow the use of your microphone for a better experience.</p>
+                    <p>This is an NFL trivia game with 10 questions. Each question has a time limit of 15 seconds. If the clock runs out before a question is answered it is chalked up as unanswered. The rest are scored as correct or incorrect. When a question is answered or the time runs out, the correct answer is displayed as well as an animated gif image that depicts that correct answer.</p>
                     <div class="hidden-links">
-                        <a href="https://github.com/jpdevspace/ChopChop-Watson_Node_React_Mongo" target="_blank">
+                        <a href="https://github.com/mgishey/TriviaGame" target="_blank">
                             <i class="fab fa-github"></i> See code on Github
                         </a>
                         <br>
@@ -265,13 +273,13 @@
             <h5>CONTACT //</h5>
             <br>
             <ul>
-                <li><a href="mailto:jjpwebdev@gmail.com"><i class="fas fa-2x fa-envelope"></i> Send me an email</a></li>
+                <li><a href=""><i class="fas fa-2x fa-envelope"></i> Send me an email</a></li>
                 <li><a href="https://github.com/jpdevspace"><i class="fab fa-2x fa-github"></i> Check my repos on
                         Github</a></li>
-                <li><a href="https://www.linkedin.com/in/jeanpaulgiraldo/"><i class="fab fa-2x fa-linkedin-in"></i>
+                <li><a href=""><i class="fab fa-2x fa-linkedin-in"></i>
                         Connect with me on LinkedIn</a></li>
             </ul>
-            <p class="text-right">&copy; 2018 by <strong>Jean Paul Giraldo</strong> All Rights Reserved.</p>
+            <p class="text-right">&copy; 2018 by <strong>Michael Gishey</strong> All Rights Reserved.</p>
         </div>
     </footer>
 

@@ -38,10 +38,6 @@ ul.navbar-nav {
 ul.navbar-nav a {
     text-transform: uppercase;
 }
-
-ul.navbar-nav li:hover {
-    
-}
     
 
 /************************************
@@ -101,7 +97,7 @@ ul.navbar-nav li:hover {
 }
 
 
-#social-container h2 {
+#social-container h2, h3 {
     font-family: 'Baloo';
     color: #8c1d40;
 }
@@ -110,10 +106,7 @@ ul.navbar-nav li:hover {
         SECTION: Portfolio
 ************************************/
 .title-right {
-    background: url('../assets/opcard03.jpg') center no-repeat;
-    background-attachment: fixed;
-    background-color: #444
-    background-size: cover;
+    background-color: #444;
     border: #FFF;
     width: 95%;
     border-width: 3px 0 3px 3px;
@@ -121,7 +114,7 @@ ul.navbar-nav li:hover {
     right: 0;
     position: absolute;
     height: 8em;
-    box-shadow: inset 0px 0px 15px 10px rgba(34, 34, 34, 0.7);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.56);
     padding: 1em;
     margin-top: 2em;
 }
@@ -129,7 +122,7 @@ ul.navbar-nav li:hover {
 .title-right h2 {
     color: #FFF;
     font-size: 3em;
-    text-shadow: 0 0 5px rgb(0,0,0);
+    /*text-shadow: 0 0 5px rgb(0,0,0);*/
     padding-top: 0.3em;
     padding-left: 0.5em;
 }
@@ -157,7 +150,7 @@ ul.navbar-nav li:hover {
 }
 
 .portfolio-label {
-    background-color: #00a797;
+    background-color: #8c1d40;
     text-align: center;
     padding: 0.3em;
     position: absolute;
@@ -207,34 +200,20 @@ ul.navbar-nav li:hover {
 }
 
 .p3 {
-    background: #FFF url('../assets/groceryshopping.png')  center no-repeat;
+    background: #FFF url('../assets/giphy.gif')  center no-repeat;
     background-size: cover;
 }
 
 .p4 {
-    background: #FFF url('../assets/sijui.png') center no-repeat;
+    background: #FFF url('../assets/project1.jpg') center no-repeat;
     background-size: cover;
 }
 
 .p5 {
-    background: #FFF url('../assets/carMatching.png') center no-repeat;
-    background-size: contain;
-}
-
-.p6 {
-    background: #FFF url('../assets/giftastic.png') center no-repeat;
-    background-size: contain;
-}
-
-.p7 {
-    background: #FFF url('../assets/trainschedule.png') center no-repeat;
-    background-size: contain;
-}
-
-.p8 {
-    background: #FFF url('../assets/myphoto.jpg') center no-repeat;
+    background: #FFF url('../assets/liri.jpg') center no-repeat;
     background-size: cover;
 }
+
 /************************************
         SECTION: Footer
 ************************************/
@@ -256,11 +235,6 @@ footer li {
 
 footer strong {
     color: #b1b1b1;
-}
-
-#interests-strip {
-    padding: 1em;
-    background-color: #00a797;
 }
 
 #footer-msg {

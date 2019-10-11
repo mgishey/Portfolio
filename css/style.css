@@ -235,15 +235,3 @@ footer strong {
 #footer-msg {
     padding: 1.5em 2em 0.5em 2em;
 }
-
-
-/************************************
-        Media Queries
-************************************/
-
-@media only screen and (min-width : 320px) and (max-width : 800px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    /* If you're holding your phone the correct way this happens. */
-    
-    h1 {
-        font-size: 75%;
-    }
